@@ -1,0 +1,1 @@
+import{i as e}from"./request-CGeKHk3j.js";const o=(r,t)=>e.get("/checkout/order",{params:{mode:r,delivery:10,couponId:0,isUsePoints:0,...t}}),c=(r,t)=>e.post("/checkout/submit",{mode:r,delivery:10,couponId:0,isUsePoints:0,payType:10,...t}),a=r=>e.get("/order/list",{params:r}),n=r=>e({url:"/order/cancel",method:"POST",data:{orderId:r}});export{c as a,o as c,a as g,n as s};
